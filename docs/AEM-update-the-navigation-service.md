@@ -13,12 +13,13 @@ WIP
 In the above screenshot, you can see the result. One of the paths is highlighted as an example.
 
 ## Steps for AEM changes
+
 - after this, login to AEM (test or pre)
 - go the settings page (click on gear icon)
 ![Screenshot_2022-05-16_at_10.46.59](uploads/e0693d9170866630bbbd0afd3cf82ee5/Screenshot_2022-05-16_at_10.46.59.png)
 - then click on nemo from the folder structure
-![Screenshot_2022-05-16_at_10.49.17](uploads/fd915a41ff85c085292b1c866e68eae8/Screenshot_2022-05-16_at_10.49.17.png) 
-- then go to market folder (for example IT) 
+![Screenshot_2022-05-16_at_10.49.17](uploads/fd915a41ff85c085292b1c866e68eae8/Screenshot_2022-05-16_at_10.49.17.png)
+- then go to market folder (for example IT)
 - then select the json folder from the market
 ![Screenshot_2022-05-16_at_10.50.59](uploads/5a2dded2415787042845d1c9109f4425/Screenshot_2022-05-16_at_10.50.59.png)
 - then double click on oneshop-navig-service.json from the left sidebar (this will open an empty page)
@@ -28,7 +29,7 @@ In the above screenshot, you can see the result. One of the paths is highlighted
 
 - open this file in your IDE and edit as per requirement
 - upload the changed file to the json folder and then activate it. Make sure you delete or replace the old file
- 
+
 ## Common issues
 
 If you find that the changes did not work then it may be a caching issue.

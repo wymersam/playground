@@ -16,13 +16,11 @@ _Note: You can find out the `DisclaimerKey` by holding in `command`, hovering ov
 
 ![Screenshot_2022-04-19_at_16.00.31](uploads/0eb46f5d6ab97b294a98f54779f3275e/Screenshot_2022-04-19_at_16.00.31.png)
 
-
 7. Then, navigate to the `__snapshots__` folder and select `create-configurations.test.ts.snap`. Make the same change/s here as you did for the last step
 
 _Note: You can quickly navigate to the relevant part of the code by holding in `control` and `f` simultaneously and then typing `disclaimer`. Again, make sure to change the code for the correct market._
 
 ![Screenshot_2022-04-19_at_15.40.47](uploads/401302da1ef841c2a6808751efaecddc/Screenshot_2022-04-19_at_15.40.47.png)
-
 
 8. Next, you need to add (`git add`) and commit (\`git commit -m "add message here") and then make a merge request on GitLab.
 9. Once this is done, you should also make these same changes for the [vwdfive / oneshop-configuration GitHub repository](https://github.com/vwdfive/oneshop-configuration/tree/development/v1/audi).
@@ -31,7 +29,7 @@ _If you are not sure how to do step **10** or **11**, then_ [_this page_](https:
 
 :star2: _Well done! You just made configuration changes to add disclaimers to the blacklist and prevent them from being shown on a given market's website._
 
-> 
+>
 >
 > [Here](https://git.diconium.com/audi/oneshop---oneaudi/oneshop---frontend---oneaudi/-/merge_requests/1626/diffs#6420d3725b45bed3249150aae3e869b54e4dccfc) is an example of a successful merge request for adding a disclaimer to the blacklist.
 
